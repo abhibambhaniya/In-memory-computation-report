@@ -1,0 +1,29 @@
+%
+% File: abstract.tex
+% Author: V?ctor Bre?a-Medina
+% Description: Contains the text for thesis abstract
+%
+% UoB guidelines:
+%
+% Each copy must include an abstract or summary of the dissertation in not
+% more than 300 words, on one side of A4, which should be single-spaced in a
+% font size in the range 10 to 12. If the dissertation is in a language other
+% than English, an abstract in that language and an abstract in English must
+% be included.
+
+\chapter*{Abstract}
+%\begin{SingleSpace}
+\begin{OnehalfSpacing}
+\paragraph{}
+\end{OnehalfSpacing}
+
+For providing novel solutions to the problems of memory bottleneck in Von-Neumann Architecture, we are trying to modify the most basic memory element, the S-RAM cell and it’s peripherals, but without any substantial increase in area. As the industry of Machine
+Learning, Artificial Intelligence and IOT are on the rise, these memories can help with In-Memory Computing operations thus reducing machine time.
+
+We designed an Architecture using 4x8 8T SRAM array for In Memory Computation with a word length of 4 bits in 180nm technology (SCL PDK) at 1.8V Vdd. This architecture is capable of computing logical operations like NAND, NOR, XOR, NOT and ADD, SUB operation for two words without conventional gate designs. LEFT SHIFT and RIGHT SHIFT operations are also possible in our design that too without the use of Flip Flops. Unlike conventional memory decoders, the decoders for this circuit require two addresses for reading operands and one address for writing the result along with the Opcode.  
+
+The simulations were done using Cadence and Python together, in which the python code converted the Assembly code into bit streams for the control signals in the architecture. So it can be used like a mini computer to perform small tasks, by just writing an Assembly code.  
+
+All the design, simulations and tests were performed in Cadence Virtuoso ADE and Python.
+
+\clearpage 
